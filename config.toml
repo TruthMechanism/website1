@@ -1,0 +1,18 @@
+baseURL = 'http://truthmechanism.github.io/'
+languageCode = 'en-us'
+title = 'Truth Mechanism'
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-relearn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]
+
+[params]
+alwaysopen = false
+collapsibleMenu = true
+showVisitedLinks = true
+disableBreadcrumb = false
+disableLandingPageButton = "true"
+swaggerInitialize = "{ \"theme\": \"light\" }"
+# avatarurl = "img/avatar.jpg"
